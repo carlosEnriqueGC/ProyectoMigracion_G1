@@ -1,5 +1,4 @@
-﻿using Calendar.NET;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,11 +15,7 @@ namespace Vista_PrototipoMenu
     {
         public Calendario_citas()
         {
-            InitializeComponent();
-
-
-            
-           
+            InitializeComponent();  
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
