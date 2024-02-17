@@ -30,7 +30,6 @@ namespace Vista_PrototipoMenu
         private void InitializeComponent()
         {
             this.label4 = new System.Windows.Forms.Label();
-            this.navegador1 = new CapaVista.Navegador();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +40,7 @@ namespace Vista_PrototipoMenu
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_pasaporte = new System.Windows.Forms.TextBox();
+            this.navegador1 = new CapaVista.Navegador();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,22 +53,14 @@ namespace Vista_PrototipoMenu
             this.label4.TabIndex = 174;
             this.label4.Text = "NAVEGADOR";
             // 
-            // navegador1
-            // 
-            this.navegador1.Location = new System.Drawing.Point(-4, 36);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(1001, 96);
-            this.navegador1.TabIndex = 185;
-            // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(595, 161);
+            this.textBox1.Location = new System.Drawing.Point(594, 233);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(283, 22);
+            this.textBox1.Size = new System.Drawing.Size(334, 22);
             this.textBox1.TabIndex = 196;
             this.textBox1.Tag = "prepasaporte_dolar";
             // 
@@ -78,11 +70,11 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(71, 330);
+            this.dataGridView1.Location = new System.Drawing.Point(26, 399);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(870, 313);
+            this.dataGridView1.Size = new System.Drawing.Size(957, 234);
             this.dataGridView1.TabIndex = 195;
             this.dataGridView1.Tag = "tbl_preciopasaporte";
             // 
@@ -93,7 +85,7 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(67, 253);
+            this.label3.Location = new System.Drawing.Point(12, 303);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 20);
             this.label3.TabIndex = 190;
@@ -104,9 +96,9 @@ namespace Vista_PrototipoMenu
             this.txt_tipocompra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_tipocompra.Location = new System.Drawing.Point(595, 249);
+            this.txt_tipocompra.Location = new System.Drawing.Point(594, 303);
             this.txt_tipocompra.Name = "txt_tipocompra";
-            this.txt_tipocompra.Size = new System.Drawing.Size(283, 22);
+            this.txt_tipocompra.Size = new System.Drawing.Size(328, 22);
             this.txt_tipocompra.TabIndex = 194;
             this.txt_tipocompra.Tag = "prepasaporte_quetzales";
             // 
@@ -117,7 +109,7 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(484, 251);
+            this.label6.Location = new System.Drawing.Point(482, 305);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 20);
             this.label6.TabIndex = 193;
@@ -129,9 +121,9 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_nombrepro.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.txt_nombrepro.Location = new System.Drawing.Point(201, 251);
+            this.txt_nombrepro.Location = new System.Drawing.Point(156, 303);
             this.txt_nombrepro.Name = "txt_nombrepro";
-            this.txt_nombrepro.Size = new System.Drawing.Size(265, 22);
+            this.txt_nombrepro.Size = new System.Drawing.Size(295, 22);
             this.txt_nombrepro.TabIndex = 191;
             this.txt_nombrepro.Tag = "prepasaporte_tasa";
             // 
@@ -142,7 +134,7 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(479, 179);
+            this.label5.Location = new System.Drawing.Point(434, 145);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 20);
             this.label5.TabIndex = 192;
@@ -154,7 +146,7 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(65, 161);
+            this.label1.Location = new System.Drawing.Point(22, 233);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 20);
             this.label1.TabIndex = 187;
@@ -167,7 +159,7 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(484, 161);
+            this.label2.Location = new System.Drawing.Point(487, 235);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 20);
             this.label2.TabIndex = 188;
@@ -179,17 +171,26 @@ namespace Vista_PrototipoMenu
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_pasaporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.txt_pasaporte.Location = new System.Drawing.Point(201, 159);
+            this.txt_pasaporte.Location = new System.Drawing.Point(156, 233);
             this.txt_pasaporte.Name = "txt_pasaporte";
-            this.txt_pasaporte.Size = new System.Drawing.Size(265, 22);
+            this.txt_pasaporte.Size = new System.Drawing.Size(295, 22);
             this.txt_pasaporte.TabIndex = 189;
             this.txt_pasaporte.Tag = "prepasaporte_nombre";
+            // 
+            // navegador1
+            // 
+            this.navegador1.Location = new System.Drawing.Point(-2, 68);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Size = new System.Drawing.Size(1001, 96);
+            this.navegador1.TabIndex = 197;
             // 
             // frmMantenimientoPrecioB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 655);
+            this.ClientSize = new System.Drawing.Size(1012, 645);
+            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
@@ -200,7 +201,6 @@ namespace Vista_PrototipoMenu
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_pasaporte);
-            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.label4);
             this.Name = "frmMantenimientoPrecioB";
             this.Text = "frmMantenimientoPrecioB";
@@ -213,7 +213,6 @@ namespace Vista_PrototipoMenu
         #endregion
 
         private System.Windows.Forms.Label label4;
-        private CapaVista.Navegador navegador1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label3;
@@ -224,5 +223,6 @@ namespace Vista_PrototipoMenu
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_pasaporte;
+        private CapaVista.Navegador navegador1;
     }
 }
