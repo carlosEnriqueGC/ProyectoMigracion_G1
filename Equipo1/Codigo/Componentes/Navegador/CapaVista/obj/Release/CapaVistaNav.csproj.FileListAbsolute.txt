@@ -15,3 +15,20 @@ C:\Users\Soporte\Documents\Profesional\Umg\Didactica2k23\ProyectosFinales\proyec
 C:\Users\Soporte\Documents\Profesional\Umg\Didactica2k23\ProyectosFinales\proyectoads22023\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.csproj.CopyComplete
 C:\Users\Soporte\Documents\Profesional\Umg\Didactica2k23\ProyectosFinales\proyectoads22023\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.dll
 C:\Users\Soporte\Documents\Profesional\Umg\Didactica2k23\ProyectosFinales\proyectoads22023\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.pdb
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\CapaVistaNav.dll
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\CapaVistaNav.pdb
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\CapaControladorNav.dll
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\Seguridad_Controlador.dll
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\CapaModeloNav.dll
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\Modelo_Seguridad.dll
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\CapaControladorNav.pdb
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Release\CapaModeloNav.pdb
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVista.Login.resources
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVista.Navegador.resources
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.Properties.Resources.resources
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.csproj.CopyComplete
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.dll
+C:\Users\DELL\Desktop\labo analisis\holaaaaaa\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\obj\Release\CapaVistaNav.pdb
