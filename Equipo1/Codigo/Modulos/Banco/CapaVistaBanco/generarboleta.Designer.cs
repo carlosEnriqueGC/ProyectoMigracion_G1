@@ -103,7 +103,7 @@ namespace CapaVistaBanco
             // 
             this.textBox6.Location = new System.Drawing.Point(12, 352);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(833, 22);
+            this.textBox6.Size = new System.Drawing.Size(455, 22);
             this.textBox6.TabIndex = 42;
             // 
             // label9
