@@ -222,5 +222,20 @@ namespace CapaVistaERP
             Abrir(new Procesos.MovimientoProveedores());
             hideSubMenu();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Abrir(new Mantenimientos.frmMovimientoInventario());
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Abrir(new Mantenimientos.frmProductos());
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Abrir(new Procesos.TrasladoProducto());
+        }
     }
 }

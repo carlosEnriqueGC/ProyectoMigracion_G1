@@ -49,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mantenimientos\frmMovimientoInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMovimientoInventario.Designer.cs">
+      <DependentUpon>frmMovimientoInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mantenimientos\frm_Mant_Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     </Compile>
     <Compile Include="Procesos\FacturaporPagar.Designer.cs">
       <DependentUpon>FacturaporPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\TrasladoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\TrasladoProducto.Designer.cs">
+      <DependentUpon>TrasladoProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Procesos\frm_cotizacion.cs">
       <SubType>Form</SubType>
@@ -141,6 +159,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Mantenimientos\frmMovimientoInventario.resx">
+      <DependentUpon>frmMovimientoInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\frm_Mant_Proveedor.resx">
       <DependentUpon>frm_Mant_Proveedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\FacturaporPagar.resx">
       <DependentUpon>FacturaporPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\TrasladoProducto.resx">
+      <DependentUpon>TrasladoProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\frm_cotizacion.resx">
       <DependentUpon>frm_cotizacion.cs</DependentUpon>

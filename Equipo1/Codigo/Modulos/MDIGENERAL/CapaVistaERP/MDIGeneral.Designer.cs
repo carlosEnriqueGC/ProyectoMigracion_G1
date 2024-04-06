@@ -377,7 +377,7 @@ namespace CapaVistaERP
             this.button20.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.button20.Size = new System.Drawing.Size(348, 43);
             this.button20.TabIndex = 34;
-            this.button20.Text = "PROCESO 3";
+            this.button20.Text = "RENTABILIDAD";
             this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button20.UseVisualStyleBackColor = true;
             // 
@@ -394,7 +394,7 @@ namespace CapaVistaERP
             this.button21.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.button21.Size = new System.Drawing.Size(348, 43);
             this.button21.TabIndex = 33;
-            this.button21.Text = "PROCESO 2";
+            this.button21.Text = "EXISTENCIAS";
             this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button21.UseVisualStyleBackColor = true;
             // 
@@ -411,9 +411,10 @@ namespace CapaVistaERP
             this.button22.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.button22.Size = new System.Drawing.Size(348, 43);
             this.button22.TabIndex = 32;
-            this.button22.Text = "PROCESO 1";
+            this.button22.Text = "TRASLADO DE PRODUCTO";
             this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button19
             // 
@@ -762,9 +763,10 @@ namespace CapaVistaERP
             this.button8.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.button8.Size = new System.Drawing.Size(348, 49);
             this.button8.TabIndex = 14;
-            this.button8.Text = "VENDEDORES";
+            this.button8.Text = "MOVIMIENTO INVENTARIO";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -779,9 +781,10 @@ namespace CapaVistaERP
             this.button7.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.button7.Size = new System.Drawing.Size(348, 43);
             this.button7.TabIndex = 13;
-            this.button7.Text = "CLIENTES";
+            this.button7.Text = "PRODUCTO";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
