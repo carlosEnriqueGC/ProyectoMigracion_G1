@@ -196,7 +196,8 @@ namespace CapaVistaERP
 
         private void button28_Click(object sender, EventArgs e)
         {
-
+            Abrir(new Procesos.Mov_bancario());
+            hideSubMenu();
         }
 
         private void button26_Click(object sender, EventArgs e)
@@ -223,6 +224,7 @@ namespace CapaVistaERP
             hideSubMenu();
         }
 
+<<<<<<< HEAD
         private void button8_Click(object sender, EventArgs e)
         {
             Abrir(new Mantenimientos.frmMovimientoInventario());
@@ -236,6 +238,18 @@ namespace CapaVistaERP
         private void button22_Click(object sender, EventArgs e)
         {
             Abrir(new Procesos.TrasladoProducto());
+=======
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Abrir(new Mantenimientos.frm_mant_tipo_de_cambio());
+            hideSubMenu();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Abrir(new Procesos.Dispo_Diaria());
+            hideSubMenu();
+>>>>>>> 8e857c2705bc56685ae80b7998f0fea642c7b2ff
         }
     }
 }
