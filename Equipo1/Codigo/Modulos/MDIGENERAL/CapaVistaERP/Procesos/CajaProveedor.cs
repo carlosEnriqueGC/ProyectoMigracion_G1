@@ -12,9 +12,17 @@ namespace CapaVistaERP.Procesos
 {
     public partial class CajaProveedor : Form
     {
-        public CajaProveedor()
+        private MovimientoProveedores MovimientoProveedorescaja;
+
+        public CajaProveedor(MovimientoProveedores movimientoProveedores )
         {
             InitializeComponent();
+            MovimientoProveedorescaja = movimientoProveedores;
+        }
+
+        private void CajaProveedor_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -8,6 +8,7 @@ namespace CapaModeloERP
 {
     class Conexion
     {
+
         public OdbcConnection conexion()
         {
             //creacion de la conexion via ODBC
@@ -35,5 +36,7 @@ namespace CapaModeloERP
                 Console.WriteLine("No Conectó");
             }
         }
+
+       
     }
 }

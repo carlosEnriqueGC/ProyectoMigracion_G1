@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaControladorERP">
+    <Reference Include="CapaControladorERP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CapaControladorERP\bin\Debug\CapaControladorERP.dll</HintPath>
     </Reference>
     <Reference Include="CapaVistaNav">

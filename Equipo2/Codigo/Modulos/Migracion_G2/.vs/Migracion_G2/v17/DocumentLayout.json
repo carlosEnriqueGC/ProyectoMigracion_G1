@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA3F16D-08B4-4441-9421-071AD433B4E8}|CapaModelo_MG2\\CapaModelo_MG2.csproj|c:\\users\\usuario\\documents\\github\\proyectomigracion_g1\\equipo2\\codigo\\modulos\\migracion_g2\\capamodelo_mg2\\sentencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA3F16D-08B4-4441-9421-071AD433B4E8}|CapaModelo_MG2\\CapaModelo_MG2.csproj|solutionrelative:capamodelo_mg2\\sentencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE3B973-2E86-4873-B4F1-4D0E87061D53}|CapaControlador_MG2\\CapaControlador_MG2.csproj|c:\\users\\usuario\\documents\\github\\proyectomigracion_g1\\equipo2\\codigo\\modulos\\migracion_g2\\capacontrolador_mg2\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE3B973-2E86-4873-B4F1-4D0E87061D53}|CapaControlador_MG2\\CapaControlador_MG2.csproj|solutionrelative:capacontrolador_mg2\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAE02B4-E352-41A9-9D5C-EDD12D3E2E4E}|CapaVista_MG2\\CapaVista_MG2.csproj|c:\\users\\usuario\\documents\\github\\proyectomigracion_g1\\equipo2\\codigo\\modulos\\migracion_g2\\capavista_mg2\\crear_cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FAE02B4-E352-41A9-9D5C-EDD12D3E2E4E}|CapaVista_MG2\\CapaVista_MG2.csproj|solutionrelative:capavista_mg2\\crear_cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAE02B4-E352-41A9-9D5C-EDD12D3E2E4E}|CapaVista_MG2\\CapaVista_MG2.csproj|C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\capavista_mg2\\frmdatospersonales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FAE02B4-E352-41A9-9D5C-EDD12D3E2E4E}|CapaVista_MG2\\CapaVista_MG2.csproj|solutionrelative:capavista_mg2\\frmdatospersonales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controlador.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaControlador_MG2\\Controlador.cs",
+              "RelativeDocumentMoniker": "CapaControlador_MG2\\Controlador.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaControlador_MG2\\Controlador.cs",
+              "RelativeToolTip": "CapaControlador_MG2\\Controlador.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:24:44.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sentencias.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaModelo_MG2\\Sentencias.cs",
+              "RelativeDocumentMoniker": "CapaModelo_MG2\\Sentencias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaModelo_MG2\\Sentencias.cs",
+              "RelativeToolTip": "CapaModelo_MG2\\Sentencias.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:23:40.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmDatosPersonales.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaVista_MG2\\frmDatosPersonales.cs",
+              "RelativeDocumentMoniker": "CapaVista_MG2\\frmDatosPersonales.cs",
+              "ToolTip": "C:\\Users\\olste\\Desktop\\OLIVER 2019\\Tareas\\Noveno Semestre\\sources\\ISP12k24\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaVista_MG2\\frmDatosPersonales.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\olste\\Desktop\\OLIVER 2019\\Tareas\\Noveno Semestre\\sources\\ISP12k24\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaVista_MG2\\frmDatosPersonales.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-04-10T22:23:12.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Crear_Cita.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaVista_MG2\\Crear_Cita.cs",
+              "RelativeDocumentMoniker": "CapaVista_MG2\\Crear_Cita.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoMigracion_G1\\Equipo2\\Codigo\\Modulos\\Migracion_G2\\CapaVista_MG2\\Crear_Cita.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVista_MG2\\Crear_Cita.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:23:12.833Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

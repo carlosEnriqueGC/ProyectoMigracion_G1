@@ -16,5 +16,16 @@ namespace CapaVistaERP.Procesos
         {
             InitializeComponent();
         }
+
+        private void dgv_proveedores_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void btn_buscarProveedor_Click(object sender, EventArgs e)
+        {
+           
+
+        }
     }
 }

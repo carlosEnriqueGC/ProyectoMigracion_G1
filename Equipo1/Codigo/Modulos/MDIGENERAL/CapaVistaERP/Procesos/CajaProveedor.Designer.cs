@@ -313,6 +313,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "CajaProveedor";
             this.Text = "CajaProveedor";
+            this.Load += new System.EventHandler(this.CajaProveedor_Load);
             this.cmb_tipo.ResumeLayout(false);
             this.cmb_tipo.PerformLayout();
             this.groupBox1.ResumeLayout(false);

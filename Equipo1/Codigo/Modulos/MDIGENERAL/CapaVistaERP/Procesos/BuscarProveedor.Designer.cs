@@ -57,6 +57,7 @@ namespace CapaVistaERP.Procesos
             this.dgv_proveedores.RowHeadersWidth = 51;
             this.dgv_proveedores.Size = new System.Drawing.Size(571, 185);
             this.dgv_proveedores.TabIndex = 33;
+            this.dgv_proveedores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_proveedores_CellContentClick);
             // 
             // label1
             // 
@@ -64,7 +65,7 @@ namespace CapaVistaERP.Procesos
             this.label1.Location = new System.Drawing.Point(33, 36);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 17);
+            this.label1.Size = new System.Drawing.Size(123, 16);
             this.label1.TabIndex = 32;
             this.label1.Text = "Nombre Proveedor";
             // 
@@ -75,16 +76,17 @@ namespace CapaVistaERP.Procesos
             this.btn_buscarProveedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_buscarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buscarProveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_buscarProveedor.Image")));
-            this.btn_buscarProveedor.Location = new System.Drawing.Point(402, 32);
+            this.btn_buscarProveedor.Location = new System.Drawing.Point(453, 33);
             this.btn_buscarProveedor.Margin = new System.Windows.Forms.Padding(0);
             this.btn_buscarProveedor.Name = "btn_buscarProveedor";
             this.btn_buscarProveedor.Size = new System.Drawing.Size(31, 25);
             this.btn_buscarProveedor.TabIndex = 31;
             this.btn_buscarProveedor.UseVisualStyleBackColor = false;
+            this.btn_buscarProveedor.Click += new System.EventHandler(this.btn_buscarProveedor_Click);
             // 
             // txt_Prov
             // 
-            this.txt_Prov.Location = new System.Drawing.Point(193, 32);
+            this.txt_Prov.Location = new System.Drawing.Point(164, 34);
             this.txt_Prov.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Prov.Name = "txt_Prov";
             this.txt_Prov.Size = new System.Drawing.Size(239, 22);

@@ -29,38 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MovimientoProveedores));
-            this.btn_pagoproveedor = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePickerVencimiento = new System.Windows.Forms.DateTimePicker();
-            this.label22 = new System.Windows.Forms.Label();
+            this.btn_PagoProv = new System.Windows.Forms.Button();
+            this.txt_nitprov = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.dgv_facturasporpagar = new System.Windows.Forms.DataGridView();
             this.txt_nombreprov = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btn_buscar = new System.Windows.Forms.Button();
+            this.btn_buscarprov = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_Idprov = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_facturasporpagar)).BeginInit();
             this.SuspendLayout();
             // 
-            // btn_pagoproveedor
-            // 
-            this.btn_pagoproveedor.Location = new System.Drawing.Point(62, 452);
-            this.btn_pagoproveedor.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_pagoproveedor.Name = "btn_pagoproveedor";
-            this.btn_pagoproveedor.Size = new System.Drawing.Size(148, 46);
-            this.btn_pagoproveedor.TabIndex = 37;
-            this.btn_pagoproveedor.Text = "Pago a proveedor";
-            this.btn_pagoproveedor.UseVisualStyleBackColor = true;
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePickerVencimiento);
-            this.groupBox1.Controls.Add(this.label22);
+            this.groupBox1.Controls.Add(this.btn_PagoProv);
+            this.groupBox1.Controls.Add(this.txt_nitprov);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.dgv_facturasporpagar);
             this.groupBox1.Controls.Add(this.txt_nombreprov);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.btn_buscar);
+            this.groupBox1.Controls.Add(this.btn_buscarprov);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txt_Idprov);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -68,30 +59,39 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1071, 431);
+            this.groupBox1.Size = new System.Drawing.Size(1071, 478);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Movimientos";
             // 
-            // dateTimePickerVencimiento
+            // btn_PagoProv
             // 
-            this.dateTimePickerVencimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerVencimiento.Location = new System.Drawing.Point(849, 48);
-            this.dateTimePickerVencimiento.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePickerVencimiento.Name = "dateTimePickerVencimiento";
-            this.dateTimePickerVencimiento.Size = new System.Drawing.Size(137, 24);
-            this.dateTimePickerVencimiento.TabIndex = 36;
+            this.btn_PagoProv.Location = new System.Drawing.Point(49, 407);
+            this.btn_PagoProv.Name = "btn_PagoProv";
+            this.btn_PagoProv.Size = new System.Drawing.Size(190, 38);
+            this.btn_PagoProv.TabIndex = 37;
+            this.btn_PagoProv.Text = "Pago de Proveedor";
+            this.btn_PagoProv.UseVisualStyleBackColor = true;
+            this.btn_PagoProv.Click += new System.EventHandler(this.btn_PagoProv_Click);
             // 
-            // label22
+            // txt_nitprov
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(598, 46);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(243, 20);
-            this.label22.TabIndex = 35;
-            this.label22.Text = "Fecha de vencimiento de pago";
+            this.txt_nitprov.Location = new System.Drawing.Point(688, 50);
+            this.txt_nitprov.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_nitprov.Name = "txt_nitprov";
+            this.txt_nitprov.Size = new System.Drawing.Size(184, 24);
+            this.txt_nitprov.TabIndex = 36;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(650, 50);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 20);
+            this.label1.TabIndex = 35;
+            this.label1.Text = "NIT";
             // 
             // dgv_facturasporpagar
             // 
@@ -105,7 +105,7 @@
             // 
             // txt_nombreprov
             // 
-            this.txt_nombreprov.Location = new System.Drawing.Point(386, 48);
+            this.txt_nombreprov.Location = new System.Drawing.Point(396, 48);
             this.txt_nombreprov.Margin = new System.Windows.Forms.Padding(4);
             this.txt_nombreprov.Name = "txt_nombreprov";
             this.txt_nombreprov.Size = new System.Drawing.Size(184, 24);
@@ -115,43 +115,45 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(310, 50);
+            this.label3.Location = new System.Drawing.Point(320, 50);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 20);
             this.label3.TabIndex = 32;
             this.label3.Text = "Nombre";
             // 
-            // btn_buscar
+            // btn_buscarprov
             // 
-            this.btn_buscar.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btn_buscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscar.BackgroundImage")));
-            this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscar.Location = new System.Drawing.Point(1015, 47);
-            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(33, 25);
-            this.btn_buscar.TabIndex = 21;
-            this.btn_buscar.UseVisualStyleBackColor = false;
+            this.btn_buscarprov.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btn_buscarprov.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscarprov.BackgroundImage")));
+            this.btn_buscarprov.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_buscarprov.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_buscarprov.Location = new System.Drawing.Point(959, 50);
+            this.btn_buscarprov.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_buscarprov.Name = "btn_buscarprov";
+            this.btn_buscarprov.Size = new System.Drawing.Size(33, 25);
+            this.btn_buscarprov.TabIndex = 21;
+            this.btn_buscarprov.UseVisualStyleBackColor = false;
+            this.btn_buscarprov.Click += new System.EventHandler(this.btn_buscarprov_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(45, 48);
+            this.label2.Location = new System.Drawing.Point(55, 48);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "ID Proveedor";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txt_Idprov
             // 
-            this.txt_Idprov.Location = new System.Drawing.Point(173, 46);
+            this.txt_Idprov.Location = new System.Drawing.Point(171, 46);
             this.txt_Idprov.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Idprov.Name = "txt_Idprov";
-            this.txt_Idprov.Size = new System.Drawing.Size(104, 24);
+            this.txt_Idprov.Size = new System.Drawing.Size(116, 24);
             this.txt_Idprov.TabIndex = 11;
             // 
             // MovimientoProveedores
@@ -159,7 +161,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1099, 515);
-            this.Controls.Add(this.btn_pagoproveedor);
             this.Controls.Add(this.groupBox1);
             this.Name = "MovimientoProveedores";
             this.Text = "MovimientoProveedores";
@@ -171,16 +172,15 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_pagoproveedor;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePickerVencimiento;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.DataGridView dgv_facturasporpagar;
         private System.Windows.Forms.TextBox txt_nombreprov;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btn_buscar;
+        private System.Windows.Forms.Button btn_buscarprov;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_Idprov;
+        private System.Windows.Forms.TextBox txt_nitprov;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_PagoProv;
     }
 }

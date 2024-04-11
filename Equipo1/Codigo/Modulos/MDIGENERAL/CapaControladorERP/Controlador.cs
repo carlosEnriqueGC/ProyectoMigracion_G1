@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.Odbc;
 using CapaModeloERP;
-namespace CapaControladorERP
+
+public class Controlador
 {
-    public class Controlador
+    Sentencias sn = new Sentencias();
+
+    public DataTable llenarTablas(String tabla)
     {
-        Sentencias sn = new Sentencias();
+        OdbcDataAdapter dt = sn.CargarDatosProv(tabla);
+        DataTable table = new DataTable();
+        dt.Fill(table);
+        return table;
     }
 }
