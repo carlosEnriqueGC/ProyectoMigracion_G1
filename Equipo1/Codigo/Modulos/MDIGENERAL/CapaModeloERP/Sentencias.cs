@@ -32,7 +32,12 @@ namespace CapaModeloERP
             return data;
         }
 
-        
+        public OdbcDataAdapter BuscarProv(string tabla, string columna, string dato, string columna2,string dato2,string columna3,string dato3)
+        {
+            string consulta = $"SELECT * FROM {tabla} WHERE {columna} = '{dato}' OR {columna2} = '{dato2}' OR {columna3} = '{dato3}'";
+            OdbcDataAdapter datos = new OdbcDataAdapter(consulta, con.connection());
+            return datos;
+        }
 
 
 

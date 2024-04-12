@@ -20,6 +20,14 @@ namespace CapaControladorERP
             return table;
         }
 
+        public DataTable BuscarProv(string tabla, string columna, string dato, string columna2, string dato2, string columna3, string dato3)
+        {
+            OdbcDataAdapter dt = sn.BuscarProv(tabla, columna, dato, columna2, dato2, columna3, dato3);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            return table;
+        }
+
         public List<string> ComboFill(string columna, string tabla)
         {
             return sn.ComboFill(columna, tabla);
