@@ -196,6 +196,7 @@ namespace CapaVistaERP.Procesos
             this.btn_ayudas.Text = "Ayuda";
             this.btn_ayudas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_ayudas.UseVisualStyleBackColor = false;
+            this.btn_ayudas.Click += new System.EventHandler(this.btn_ayudas_Click);
             // 
             // btn_limpiar
             // 
@@ -535,7 +536,7 @@ namespace CapaVistaERP.Procesos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 574);
+            this.ClientSize = new System.Drawing.Size(799, 574);
             this.Controls.Add(this.txt_IDAOC);
             this.Controls.Add(this.cb_estado);
             this.Controls.Add(this.label2);

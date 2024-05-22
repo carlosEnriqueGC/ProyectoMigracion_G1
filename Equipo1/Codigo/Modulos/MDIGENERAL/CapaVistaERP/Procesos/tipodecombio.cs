@@ -289,8 +289,7 @@ namespace CapaVistaERP.Procesos
 
         private void btn_reporte_Click(object sender, EventArgs e)
         {
-            Reportes.frmReporteTipoCambio Reporte = new Reportes.frmReporteTipoCambio();
-            Reporte.ShowDialog();
+          
         }
 
         private void btn_eliminar_Click(object sender, EventArgs e)

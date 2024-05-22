@@ -811,6 +811,14 @@ namespace CapaControladorERP
         {
             return sn.EliminarTipodecambio(idTipodeCambio);
         }
+
+        public void InsertarTipoCambio2(DateTime fecha, string moneda, double venta, double compra)
+        {
+            sn.InsertarTipoCambio2( fecha, moneda, venta, compra);
+
+        }
+       
+
     }
 }
  
